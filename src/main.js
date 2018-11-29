@@ -1,5 +1,5 @@
 require.config({
-	// baseUrl: '/',
+	baseUrl: './',
 	paths: {
 		// 自定义公共JS
 		'common': 'static/js/common',
