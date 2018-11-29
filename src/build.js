@@ -39,5 +39,5 @@
 	// 	}
 	// },
     name: "main",
-    out: "dist/main.js"
+    out: "../dist/main.js"
 })
