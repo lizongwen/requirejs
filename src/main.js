@@ -23,8 +23,10 @@ require.config({
 
 var config = requirejs.s.contexts._.config.config;
 console.log(requirejs.s.contexts._.config)
+
+
 require(['jquery', 'bootstrap', 'common'], function ($, undefined) {
 	require(['static/js/' + config.name], function (control) {
-		control.init();
+		control['init']();
 	})
 })
